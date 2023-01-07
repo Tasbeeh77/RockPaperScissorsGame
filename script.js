@@ -41,9 +41,9 @@ const getResult = (userChoice, computerChoice) => {
 window.addEventListener("load", () => {
     //selectors
     let possibleChoices = document.querySelectorAll("button")
-    let userchoice = document.querySelector("#user-choice")
-    let computerchoice = document.querySelector("#computer-choice")
-    let result = document.querySelector("#result")
+    let userchoice = document.querySelectorAll("span")[0]
+    let computerchoice = document.querySelectorAll("span")[1]
+    let result = document.querySelectorAll("span")[2]
 
     //event
     possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click", (event) => {
