@@ -41,8 +41,8 @@ const getResult = (userChoice, computerChoice) => {
 window.addEventListener("load", () => {
     //selectors
     let possibleChoices = document.querySelectorAll("button")
-    let userchoice = document.querySelectorAll("span")[0]
-    let computerchoice = document.querySelectorAll("span")[1]
+    let computerchoice = document.querySelectorAll("span")[0]
+    let userchoice = document.querySelectorAll("span")[1]
     let result = document.querySelectorAll("span")[2]
 
     //event
